@@ -14,6 +14,10 @@
 
 	<!-- ACTUAL DEPENDENCIES -->
 	<dependencies>
+        <dependency>
+            <groupId>com.sap.cds</groupId>
+            <artifactId>cds-feature-cloudfoundry</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>com.sap.cds</groupId>
 			<artifactId>cds-starter-spring-boot-odata</artifactId>
@@ -37,7 +41,18 @@
             <groupId>com.sap.cds</groupId>
             <artifactId>cds-feature-hana</artifactId>
         </dependency>
-        
+      
+        <!-- CAP security -->
+         <dependency>
+            <groupId>com.sap.cloud.security.xsuaa</groupId>
+            <artifactId>xsuaa-spring-boot-starter</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.cds</groupId>
+            <artifactId>cds-feature-xsuaa</artifactId>
+        </dependency>
+
 	</dependencies>
 
 	<build>

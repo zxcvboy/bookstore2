@@ -16,10 +16,10 @@
 
 		<!-- DEPENDENCIES VERSION -->
 		<jdk.version>1.8</jdk.version>
-		<cds.services.version>1.7.0</cds.services.version>
+		<cds.services.version>1.8.1</cds.services.version>
 		<spring.boot.version>2.3.1.RELEASE</spring.boot.version>
 
-		<cdsdk.version>^1.0.0</cdsdk.version>
+		<cdsdk.version>^1.8.5||^2</cdsdk.version>
 		<node.version>v12.16.1</node.version>
 		<node.url>https://nodejs.org/dist/</node.url>
 	</properties>
@@ -47,11 +47,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-
-            <dependency>
-                <groupId>com.sap.cds</groupId>
-                <artifactId>cds-feature-cloudfoundry</artifactId>
-            </dependency>
 		</dependencies>
 	</dependencyManagement>
 

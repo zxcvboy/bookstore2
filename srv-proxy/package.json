@@ -1,0 +1,15 @@
+{
+  "name": "srv-proxy",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@sap/cds": "latest",
+    "@sap/cds-odata-v2-adapter-proxy": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  }
+}

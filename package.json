@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@sap/capire-products2": "file:sap-capire-products2-1.0.0.tgz",
+    "@sap/cds": "^4.1.7",
     "hdb": "^0.18.1"
   },
   "devDependencies": {
@@ -18,6 +19,9 @@
     "sqlite3": "^5.0.0"
   },
   "cds": {
+    "odata": {
+      "version": "v4"
+    },
     "hana": {
       "deploy-format": "hdbtable",
       "syntax": "hdi"
