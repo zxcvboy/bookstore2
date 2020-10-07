@@ -90,9 +90,11 @@ public class MyController {
 
         try {
                
-             ObjectMapper objectMapper = new ObjectMapper();
-            Map<String, Object> data = objectMapper.readValue(a, Map.class);;
+            ObjectMapper objectMapper = new ObjectMapper();
+            Map<String, Object> data = objectMapper.readValue(a, Map.class);
+            
             Books myBook = Struct.access(data).as(Books.class);
+            
              CqnUpsert upsert = Upsert.into(Books_.class).entry(myBook);
                  
 

@@ -18,7 +18,7 @@ build-parameters:
 
 modules:
  # --------------------- SERVER MODULE ------------------------
- - name: bookstore2-srv
+ - name: bookstore2
  # ------------------------------------------------------------
    type: java
    path: srv
